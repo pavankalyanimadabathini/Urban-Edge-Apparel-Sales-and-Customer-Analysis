@@ -1,0 +1,2640 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='UrbanEdgeApparel - UrbanEdgeApparel' inline='true' name='federated.0assc2f1xucxvs13fk1q20m072nx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='UrbanEdgeApparel - UrbanEdgeApparel' name='textscan.1l5xt841h57biz1h5jovg0j5k9wj'>
+            <connection class='textscan' directory='C:/Users/pimadaba/Desktop' filename='UrbanEdgeApparel - UrbanEdgeApparel.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1l5xt841h57biz1h5jovg0j5k9wj' name='UrbanEdgeApparel - UrbanEdgeApparel.csv' table='[UrbanEdgeApparel - UrbanEdgeApparel#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Order ID' ordinal='0' />
+            <column datatype='string' name='Order Status' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='string' name='Order Day of Week' ordinal='3' />
+            <column datatype='string' name='Order Month' ordinal='4' />
+            <column datatype='date' date-parse-format='yyyy' name='Order Year' ordinal='5' />
+            <column datatype='string' name='Customer ID' ordinal='6' />
+            <column datatype='string' name='Company ID' ordinal='7' />
+            <column datatype='string' name='Product ID' ordinal='8' />
+            <column datatype='string' name='Product Variant ID' ordinal='9' />
+            <column datatype='real' name='Product Unit Selling Price' ordinal='10' />
+            <column datatype='integer' name='Product Quantity' ordinal='11' />
+            <column datatype='real' name='Total Selling Price' ordinal='12' />
+            <column datatype='string' name='Payment Status' ordinal='13' />
+            <column datatype='integer' name='Shipment ID' ordinal='14' />
+            <column datatype='integer' name='Shipment Number' ordinal='15' />
+            <column datatype='string' name='Shipping Address Type' ordinal='16' />
+            <column datatype='string' name='Shipping City' ordinal='17' />
+            <column datatype='string' name='Shipping State' ordinal='18' />
+            <column datatype='integer' name='Shipping Postal Code' ordinal='19' />
+            <column datatype='string' name='Shipping Country' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1l5xt841h57biz1h5jovg0j5k9wj' name='UrbanEdgeApparel - UrbanEdgeApparel.csv' table='[UrbanEdgeApparel - UrbanEdgeApparel#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Order ID' ordinal='0' />
+            <column datatype='string' name='Order Status' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='string' name='Order Day of Week' ordinal='3' />
+            <column datatype='string' name='Order Month' ordinal='4' />
+            <column datatype='date' date-parse-format='yyyy' name='Order Year' ordinal='5' />
+            <column datatype='string' name='Customer ID' ordinal='6' />
+            <column datatype='string' name='Company ID' ordinal='7' />
+            <column datatype='string' name='Product ID' ordinal='8' />
+            <column datatype='string' name='Product Variant ID' ordinal='9' />
+            <column datatype='real' name='Product Unit Selling Price' ordinal='10' />
+            <column datatype='integer' name='Product Quantity' ordinal='11' />
+            <column datatype='real' name='Total Selling Price' ordinal='12' />
+            <column datatype='string' name='Payment Status' ordinal='13' />
+            <column datatype='integer' name='Shipment ID' ordinal='14' />
+            <column datatype='integer' name='Shipment Number' ordinal='15' />
+            <column datatype='string' name='Shipping Address Type' ordinal='16' />
+            <column datatype='string' name='Shipping City' ordinal='17' />
+            <column datatype='string' name='Shipping State' ordinal='18' />
+            <column datatype='integer' name='Shipping Postal Code' ordinal='19' />
+            <column datatype='string' name='Shipping Country' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Status]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Status</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Day of Week</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Day of Week]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Day of Week</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Month]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order Year]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Company ID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Variant ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product Variant ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product Variant ID</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Unit Selling Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Product Unit Selling Price]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product Unit Selling Price</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Product Quantity]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product Quantity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Selling Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Selling Price]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Total Selling Price</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Payment Status]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Payment Status</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipment ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipment ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipment ID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipment Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipment Number]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipment Number</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping Address Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping Address Type]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping Address Type</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping City]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping City</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping State]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping State</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping Postal Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipping Postal Code]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping Postal Code</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping Country]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping Country</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Season' datatype='string' name='[Calculation_1512365069819854854]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF MONTH([Order Date]) &gt;= 3 AND MONTH([Order Date]) &lt;= 5 THEN &quot;Spring&quot;&#13;&#10;ELSEIF MONTH([Order Date]) &gt;= 6 AND MONTH([Order Date]) &lt;= 8 THEN &quot;Summer&quot;&#13;&#10;ELSEIF MONTH([Order Date]) &gt;= 9 AND MONTH([Order Date]) &lt;= 11 THEN &quot;Fall&quot;&#13;&#10;ELSE &quot;Winter&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Tagging ' datatype='string' name='[Calculation_1512365069828046855]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF {FIXED [Customer ID] : MIN([Order Date])} = [Order Date] THEN &apos;New Customer&apos;&#13;&#10;ELSE &apos;Existing Customer&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Average_Order' datatype='real' name='[Calculation_1512365069830651913]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Calculation_1512365069830860810] : AVG([Total Selling Price])}' />
+      </column>
+      <column caption='Year-Month' datatype='datetime' name='[Calculation_1512365069830860810]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Order Date])' />
+      </column>
+      <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Order ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Order Month]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Order Status]' role='dimension' type='nominal' />
+      <column datatype='date' name='[Order Year]' role='dimension' type='quantitative' />
+      <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Product Quantity]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Shipment ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Shipment Number]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Shipping City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Shipping Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Shipping Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='string' name='[Shipping State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='real' name='[Total Selling Price]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='UrbanEdgeApparel - UrbanEdgeApparel.csv' datatype='table' name='[__tableau_internal_object_id__].[UrbanEdgeApparel - UrbanEdgeApparel.csv_7B5EDBD56AF2418EA6AC805B268B3368]' role='measure' type='quantitative' />
+      <column-instance column='[Order ID]' derivation='Count' name='[cnt:Order ID:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Customer ID]' derivation='CountD' name='[ctd:Customer ID:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Order ID]' derivation='CountD' name='[ctd:Order ID:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Order Month]' derivation='None' name='[none:Order Month:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Order Status]' derivation='None' name='[none:Order Status:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Product ID]' derivation='None' name='[none:Product ID:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Product Quantity]' derivation='Sum' name='[sum:Product Quantity:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Selling Price]' derivation='Sum' name='[sum:Total Selling Price:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Total Selling Price:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[cnt:Order ID:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[ctd:Order ID:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[ctd:Customer ID:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Product ID:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Prod_1000&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_10240&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_1087&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_1350&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_2050&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_3500&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_4402&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_50062&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_5210&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_5830&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_6340&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_73112&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_7800&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_8080&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prod_94001&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_100&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_1030&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_1171&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_2015&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_3013&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_30202&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_3700&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_5031&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_53518&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_5700&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_6053&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_7350&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_8002&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_80240&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_94250&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prod_9450&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_10150&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_1079&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_132&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_1320&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_2022&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_3030&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_34610&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_4210&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_5080&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_5804&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_6205&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_62062&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_7500&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_8050&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prod_86912&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_1009&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_1140&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_11431&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_2000&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_2102&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_3507&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_5000&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_53016&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_5306&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_5909&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_6601&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_73910&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_7902&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_8703&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Prod_94005&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_1003&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_10250&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_1091&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_1370&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_2070&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_3501&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_4403&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_5240&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_52518&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_5900&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_6400&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_73501&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_7820&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_8090&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Prod_94002&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_10160&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_1082&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_1321&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_136&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_2024&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_3033&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_40002&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_4310&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_5082&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_5805&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_6206&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_64400&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_7550&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_8060&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prod_87812&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_1024&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_1161&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_20063&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_2012&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_3010&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_3517&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_5022&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_53118&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_5402&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_6050&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_7200&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_79006&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_7930&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_94103&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prod_9430&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_1031&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_105&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_1200&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_2016&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_3020&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_30221&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_4000&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_5040&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_54026&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_5801&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_6100&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_7351&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_8020&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_80903&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_9460&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prod_99300&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_1020&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_1150&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_14010&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_2010&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_2600&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_3514&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_5004&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_53101&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_5400&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_6010&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_7100&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_75712&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_7907&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_94017&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prod_9421&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_10161&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_1083&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_1330&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_143&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_2025&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_3040&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_40010&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_4400&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_5083&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_5812&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_6207&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_70009&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_7700&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_8072&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prod_88112&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_1012&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_1143&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_11800&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_2002&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_2103&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_3508&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_5001&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_53030&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_5308&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_6000&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_6800&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_74003&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_7903&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_9100&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Prod_94006&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_1017&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_1144&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_13000&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_2004&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_2104&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_3510&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_5002&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_53039&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_5309&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_6001&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_7000&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_74010&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_7904&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_9300&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Prod_94007&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_1023&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_1151&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_14020&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_2011&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_3000&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_3516&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_5006&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_53102&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_5401&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_6012&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_7101&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_78710&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_7910&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_94018&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Prod_9423&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_1028&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_1163&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_2014&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_3011&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_30200&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_3560&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_5030&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_53318&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_5410&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_6051&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_7300&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_7940&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_80010&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_94232&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prod_9431&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_1005&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_10270&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_1093&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_1390&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_2088&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_3503&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_4800&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_5300&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_53000&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_5901&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_6440&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_73520&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_7840&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_8100&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Prod_94003&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_10201&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_1085&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_1331&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_144&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_2040&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_3041&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_4401&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_48016&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_5100&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_5813&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_6300&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_70018&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_7750&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_8073&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prod_94000&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_1032&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_113&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_1300&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_2017&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_3022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_30712&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_4100&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_5051&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_5802&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_60100&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_6203&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_7400&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_8021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_83510&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prod_9801&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_1018&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_1147&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_13220&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_2006&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_2312&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_3511&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_5003&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_53050&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_5310&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_6008&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_7001&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_74012&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_7905&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_9400&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Prod_94016&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_1007&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_1095&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_11408&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_1500&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_2100&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_3505&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_4999&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_53008&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_5302&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_5905&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_6501&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_73712&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_7900&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_8110&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Prod_94004&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_10021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_1076&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_131&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_1310&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_2019&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_3023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_32812&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_4110&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_5060&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_5803&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_62035&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_6204&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_7450&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_8023&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prod_86312&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Order Month:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;August&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;April&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;December&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;September&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;May&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;January&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;June&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;October&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;July&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;February&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;November&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;March&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Order Status:nk]&#10;[:Measure Names]' palette='tableau10_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>&quot;Canceled&quot;</bucket>
+                <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e15759'>
+              <multibucket>
+                <bucket>&quot;Failed&quot;</bucket>
+                <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#edc948'>
+              <multibucket>
+                <bucket>&quot;Process&quot;</bucket>
+                <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f28e2b'>
+              <multibucket>
+                <bucket>&quot;Completed&quot;</bucket>
+                <bucket>&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='UrbanEdgeApparel - UrbanEdgeApparel.csv' id='UrbanEdgeApparel - UrbanEdgeApparel.csv_7B5EDBD56AF2418EA6AC805B268B3368'>
+            <properties context=''>
+              <relation connection='textscan.1l5xt841h57biz1h5jovg0j5k9wj' name='UrbanEdgeApparel - UrbanEdgeApparel.csv' table='[UrbanEdgeApparel - UrbanEdgeApparel#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Order ID' ordinal='0' />
+                  <column datatype='string' name='Order Status' ordinal='1' />
+                  <column datatype='date' name='Order Date' ordinal='2' />
+                  <column datatype='string' name='Order Day of Week' ordinal='3' />
+                  <column datatype='string' name='Order Month' ordinal='4' />
+                  <column datatype='date' date-parse-format='yyyy' name='Order Year' ordinal='5' />
+                  <column datatype='string' name='Customer ID' ordinal='6' />
+                  <column datatype='string' name='Company ID' ordinal='7' />
+                  <column datatype='string' name='Product ID' ordinal='8' />
+                  <column datatype='string' name='Product Variant ID' ordinal='9' />
+                  <column datatype='real' name='Product Unit Selling Price' ordinal='10' />
+                  <column datatype='integer' name='Product Quantity' ordinal='11' />
+                  <column datatype='real' name='Total Selling Price' ordinal='12' />
+                  <column datatype='string' name='Payment Status' ordinal='13' />
+                  <column datatype='integer' name='Shipment ID' ordinal='14' />
+                  <column datatype='integer' name='Shipment Number' ordinal='15' />
+                  <column datatype='string' name='Shipping Address Type' ordinal='16' />
+                  <column datatype='string' name='Shipping City' ordinal='17' />
+                  <column datatype='string' name='Shipping State' ordinal='18' />
+                  <column datatype='integer' name='Shipping Postal Code' ordinal='19' />
+                  <column datatype='string' name='Shipping Country' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='UrbanEdgeApparel - UrbanEdgeApparel (2)' inline='true' name='federated.0assc2f1xucxvs13fk1q20m072nx (copy)' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='UrbanEdgeApparel - UrbanEdgeApparel' name='textscan.1113lq90o5qdv318gwuje1w8x6nc'>
+            <connection class='textscan' directory='C:/Users/pimadaba/Desktop' filename='UrbanEdgeApparel - UrbanEdgeApparel.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1113lq90o5qdv318gwuje1w8x6nc' name='UrbanEdgeApparel - UrbanEdgeApparel.csv' table='[UrbanEdgeApparel - UrbanEdgeApparel#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Order ID' ordinal='0' />
+            <column datatype='string' name='Order Status' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='string' name='Order Day of Week' ordinal='3' />
+            <column datatype='string' name='Order Month' ordinal='4' />
+            <column datatype='integer' name='Order Year' ordinal='5' />
+            <column datatype='string' name='Customer ID' ordinal='6' />
+            <column datatype='string' name='Company ID' ordinal='7' />
+            <column datatype='string' name='Product ID' ordinal='8' />
+            <column datatype='string' name='Product Variant ID' ordinal='9' />
+            <column datatype='real' name='Product Unit Selling Price' ordinal='10' />
+            <column datatype='integer' name='Product Quantity' ordinal='11' />
+            <column datatype='real' name='Total Selling Price' ordinal='12' />
+            <column datatype='string' name='Payment Status' ordinal='13' />
+            <column datatype='integer' name='Shipment ID' ordinal='14' />
+            <column datatype='integer' name='Shipment Number' ordinal='15' />
+            <column datatype='string' name='Shipping Address Type' ordinal='16' />
+            <column datatype='string' name='Shipping City' ordinal='17' />
+            <column datatype='string' name='Shipping State' ordinal='18' />
+            <column datatype='integer' name='Shipping Postal Code' ordinal='19' />
+            <column datatype='string' name='Shipping Country' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1113lq90o5qdv318gwuje1w8x6nc' name='UrbanEdgeApparel - UrbanEdgeApparel.csv' table='[UrbanEdgeApparel - UrbanEdgeApparel#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Order ID' ordinal='0' />
+            <column datatype='string' name='Order Status' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='string' name='Order Day of Week' ordinal='3' />
+            <column datatype='string' name='Order Month' ordinal='4' />
+            <column datatype='integer' name='Order Year' ordinal='5' />
+            <column datatype='string' name='Customer ID' ordinal='6' />
+            <column datatype='string' name='Company ID' ordinal='7' />
+            <column datatype='string' name='Product ID' ordinal='8' />
+            <column datatype='string' name='Product Variant ID' ordinal='9' />
+            <column datatype='real' name='Product Unit Selling Price' ordinal='10' />
+            <column datatype='integer' name='Product Quantity' ordinal='11' />
+            <column datatype='real' name='Total Selling Price' ordinal='12' />
+            <column datatype='string' name='Payment Status' ordinal='13' />
+            <column datatype='integer' name='Shipment ID' ordinal='14' />
+            <column datatype='integer' name='Shipment Number' ordinal='15' />
+            <column datatype='string' name='Shipping Address Type' ordinal='16' />
+            <column datatype='string' name='Shipping City' ordinal='17' />
+            <column datatype='string' name='Shipping State' ordinal='18' />
+            <column datatype='integer' name='Shipping Postal Code' ordinal='19' />
+            <column datatype='string' name='Shipping Country' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Status]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Status</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Day of Week</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Day of Week]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Day of Week</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Month]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Year]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Order Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Company ID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product ID</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Variant ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product Variant ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product Variant ID</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Unit Selling Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Product Unit Selling Price]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product Unit Selling Price</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Product Quantity]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Product Quantity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Selling Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Selling Price]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Total Selling Price</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Payment Status]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Payment Status</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipment ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipment ID]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipment ID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipment Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipment Number]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipment Number</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping Address Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping Address Type]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping Address Type</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping City]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping City</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping State]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping State</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping Postal Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipping Postal Code]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping Postal Code</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping Country]</local-name>
+            <parent-name>[UrbanEdgeApparel - UrbanEdgeApparel.csv]</parent-name>
+            <remote-alias>Shipping Country</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Order Year]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Shipment ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Shipment Number]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Shipping City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Shipping Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Shipping Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='string' name='[Shipping State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='UrbanEdgeApparel - UrbanEdgeApparel.csv' datatype='table' name='[__tableau_internal_object_id__].[UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='UrbanEdgeApparel - UrbanEdgeApparel.csv' id='UrbanEdgeApparel - UrbanEdgeApparel.csv_BF974AEB33FE44FF9FEFE831C96E17AF'>
+            <properties context=''>
+              <relation connection='textscan.1113lq90o5qdv318gwuje1w8x6nc' name='UrbanEdgeApparel - UrbanEdgeApparel.csv' table='[UrbanEdgeApparel - UrbanEdgeApparel#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Order ID' ordinal='0' />
+                  <column datatype='string' name='Order Status' ordinal='1' />
+                  <column datatype='date' name='Order Date' ordinal='2' />
+                  <column datatype='string' name='Order Day of Week' ordinal='3' />
+                  <column datatype='string' name='Order Month' ordinal='4' />
+                  <column datatype='integer' name='Order Year' ordinal='5' />
+                  <column datatype='string' name='Customer ID' ordinal='6' />
+                  <column datatype='string' name='Company ID' ordinal='7' />
+                  <column datatype='string' name='Product ID' ordinal='8' />
+                  <column datatype='string' name='Product Variant ID' ordinal='9' />
+                  <column datatype='real' name='Product Unit Selling Price' ordinal='10' />
+                  <column datatype='integer' name='Product Quantity' ordinal='11' />
+                  <column datatype='real' name='Total Selling Price' ordinal='12' />
+                  <column datatype='string' name='Payment Status' ordinal='13' />
+                  <column datatype='integer' name='Shipment ID' ordinal='14' />
+                  <column datatype='integer' name='Shipment Number' ordinal='15' />
+                  <column datatype='string' name='Shipping Address Type' ordinal='16' />
+                  <column datatype='string' name='Shipping City' ordinal='17' />
+                  <column datatype='string' name='Shipping State' ordinal='18' />
+                  <column datatype='integer' name='Shipping Postal Code' ordinal='19' />
+                  <column datatype='string' name='Shipping Country' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Season wise sales '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UrbanEdgeApparel - UrbanEdgeApparel' name='federated.0assc2f1xucxvs13fk1q20m072nx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0assc2f1xucxvs13fk1q20m072nx'>
+            <column caption='Season' datatype='string' name='[Calculation_1512365069819854854]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF MONTH([Order Date]) &gt;= 3 AND MONTH([Order Date]) &lt;= 5 THEN &quot;Spring&quot;&#13;&#10;ELSEIF MONTH([Order Date]) &gt;= 6 AND MONTH([Order Date]) &lt;= 8 THEN &quot;Summer&quot;&#13;&#10;ELSEIF MONTH([Order Date]) &gt;= 9 AND MONTH([Order Date]) &lt;= 11 THEN &quot;Fall&quot;&#13;&#10;ELSE &quot;Winter&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Order Year]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Total Selling Price]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1512365069819854854]' derivation='None' name='[none:Calculation_1512365069819854854:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Selling Price]' derivation='Sum' name='[sum:Total Selling Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Year]' derivation='Year' name='[yr:Order Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Total Selling Price:qk]&quot;' user:op='manual' />
+          </filter>
+          <filter class='categorical' column='[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Order Year:ok]'>
+            <groupfilter function='level-members' level='[yr:Order Year:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]</column>
+            <column>[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Order Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]' value='-90' />
+            <format attr='text-orientation' field='[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Calculation_1512365069819854854:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0assc2f1xucxvs13fk1q20m072nx].[Multiple Values]</rows>
+        <cols>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Calculation_1512365069819854854:nk]</cols>
+      </table>
+      <simple-id uuid='{7DC710DE-CC48-4AD8-A3CB-247B581BCECC}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UrbanEdgeApparel - UrbanEdgeApparel' name='federated.0assc2f1xucxvs13fk1q20m072nx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0assc2f1xucxvs13fk1q20m072nx'>
+            <column caption='Tagging ' datatype='string' name='[Calculation_1512365069828046855]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF {FIXED [Customer ID] : MIN([Order Date])} = [Order Date] THEN &apos;New Customer&apos;&#13;&#10;ELSE &apos;Existing Customer&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Year-Month' datatype='datetime' name='[Calculation_1512365069830860810]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Order Date])' />
+            </column>
+            <column datatype='string' name='[Customer ID]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Order ID]' role='dimension' type='ordinal' />
+            <column-instance column='[Order ID]' derivation='CountD' name='[ctd:Order ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1512365069828046855]' derivation='None' name='[none:Calculation_1512365069828046855:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1512365069830860810]' derivation='Year' name='[yr:Calculation_1512365069830860810:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Calculation_1512365069828046855:nk]' />
+              <text column='[federated.0assc2f1xucxvs13fk1q20m072nx].[ctd:Order ID:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0assc2f1xucxvs13fk1q20m072nx].[ctd:Order ID:qk]</rows>
+        <cols>[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Calculation_1512365069830860810:ok]</cols>
+      </table>
+      <simple-id uuid='{A5728DFF-014D-4D84-A2E0-D7B5EA3EDC55}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B76317DB-EC17-41DB-92CE-62B7A289FA77}' />
+    </worksheet>
+    <worksheet name='Were there any significant changes in the purchasing habits of the customers over the years?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UrbanEdgeApparel - UrbanEdgeApparel' name='federated.0assc2f1xucxvs13fk1q20m072nx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0assc2f1xucxvs13fk1q20m072nx'>
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Order Status]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Product Quantity]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Product Unit Selling Price]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total Selling Price]' role='measure' type='quantitative' />
+            <column-instance column='[Order Status]' derivation='None' name='[none:Order Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Product Quantity]' derivation='Sum' name='[sum:Product Quantity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product Unit Selling Price]' derivation='Sum' name='[sum:Product Unit Selling Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Selling Price]' derivation='Sum' name='[sum:Total Selling Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year-Trunc' name='[tyr:Order Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order Status:nk]'>
+            <groupfilter function='level-members' level='[none:Order Status:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order Status:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0assc2f1xucxvs13fk1q20m072nx].[tyr:Order Date:qk]' field-type='quantitative' max='#2025-09-02 01:31:37.363#' min='#2013-06-12 14:51:18.970#' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' field='[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order Status:nk]' />
+              <color column='[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]' />
+              <lod column='[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Unit Selling Price:qk]' />
+              <lod column='[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Total Selling Price:qk]' />
+              <text column='[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]</rows>
+        <cols>[federated.0assc2f1xucxvs13fk1q20m072nx].[tyr:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{1C41301D-A9DC-48CA-9A9C-575C9F8BC796}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' maximized='true' name='Were there any significant changes in the purchasing habits of the customers over the years?'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='260'>
+            <card mode='radiolist' param='[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order Status:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order Status:nk]&#10;[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Calculation_1512365069803491331:nk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order Status:nk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Product ID:nk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Shipping City:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F77D87A6-C288-49EE-809E-633A01371C51}' />
+    </window>
+    <window class='worksheet' name='Season wise sales '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Order Year:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[:Measure Names]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Calculation_1512365069819854854:nk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order ID:ok]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order Month:nk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[sum:Product Quantity:qk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Order Date:ok]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Order Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FC6A5784-3DAE-4C8E-B8FF-07563C9676A9}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Calculation_1512365069828046855:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Calculation_1512365069828046855:nk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Customer ID:nk]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[none:Order ID:ok]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Order Date:ok]</field>
+            <field>[federated.0assc2f1xucxvs13fk1q20m072nx].[yr:Order Date:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{369A40B8-DAC2-41EB-90AB-4859C7DD5653}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A7DC3050-8737-4C14-A51D-7E54F61F8EE0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Season wise sales ' width='192'>
+      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
+      7sINiTu9AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 5' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Were there any significant changes in the purchasing habits of the customers over the years?' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
